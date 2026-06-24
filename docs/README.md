@@ -8,12 +8,13 @@ Read these documents before implementation:
 4. [Provider adapters](provider-adapters.md)
 5. [2026 provider references](provider-references.md)
 6. [Routing and policy](routing-and-policy.md)
-7. [Open-core boundary](open-core-boundary.md)
-8. [Security and compliance](security-compliance.md)
-9. [Implementation plan](implementation-plan.md)
-10. [Publishing and release](publishing-and-release.md)
-11. [Hasna app migration plan](migration-plan.md)
-12. [Codewith handoff prompt](handoff-prompt.md)
+7. [Gateway MCP server](mcp.md)
+8. [Open-core boundary](open-core-boundary.md)
+9. [Security and compliance](security-compliance.md)
+10. [Implementation plan](implementation-plan.md)
+11. [Publishing and release](publishing-and-release.md)
+12. [Hasna app migration plan](migration-plan.md)
+13. [Codewith handoff prompt](handoff-prompt.md)
 
 ## Current Decision
 
@@ -24,6 +25,7 @@ The gateway should be open source as a self-hostable core. The commercial Hasna 
 The first implementation should prioritize a small working gateway over broad incomplete abstractions:
 
 - A working CLI server.
+- A stdio MCP server for safe local gateway inspection, route explanation, budget maintenance, and ledger summaries.
 - OpenAI-compatible chat completions.
 - OpenAI-compatible provider adapter.
 - Config validation.
