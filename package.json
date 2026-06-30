@@ -1,6 +1,6 @@
 {
   "name": "@hasna/gateway",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Open-source AI model gateway core for one-key, multi-provider routing across Hasna apps and self-hosted deployments",
   "type": "module",
   "main": "dist/index.js",
@@ -52,11 +52,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hasna/open-gateway.git"
+    "url": "git+https://github.com/hasna/gateway.git"
   },
-  "homepage": "https://github.com/hasna/open-gateway",
+  "homepage": "https://github.com/hasna/gateway",
   "bugs": {
-    "url": "https://github.com/hasna/open-gateway/issues"
+    "url": "https://github.com/hasna/gateway/issues"
   },
   "engines": {
     "bun": ">=1.0.0"

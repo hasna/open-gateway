@@ -17,6 +17,16 @@ The open-source package is useful on its own. Anyone can run it locally or on th
 
 ## Quick Start
 
+Install the published CLI when you want to run the gateway without a source
+checkout:
+
+```bash
+bun install -g @hasna/gateway
+gateway --help
+```
+
+For source development:
+
 ```bash
 bun install
 cp .env.example .env
